@@ -1,0 +1,4 @@
+<?php
+
+$config = array();
+$config['ifttt_key'] = "YOUR IFTTT MAKER KEY";
