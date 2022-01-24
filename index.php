@@ -36,3 +36,8 @@ class IftttProxy
         // echo json_encode($result);
     }
 }
+
+// TODO: json body params
+
+$IftttProxy = new IftttProxy($config['ifttt_key']);
+$IftttProxy->make_request('open_gate');
